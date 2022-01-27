@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background: cyan;
+}
+
+.first-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-weight: bold;
+  color: indigo;
+  padding: 20px 50px;
+  outline: black;
+  border-radius: 15px;
+  background: gold;
+  cursor: progress;
+}
+

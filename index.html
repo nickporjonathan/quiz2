@@ -8,11 +8,60 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <header>
-      <h1 class="page-title">Quiz</h1>
-      <p>Click the button to start the Quiz</p>
-      <button class="btn">Add Task</button>
-    </header>
+    <!-- start button -->
+    <button class="first-btn">Start</button>
+
+    <!-- conditions -->
+    <div class="condition-box">
+      <div class="condition-directions">
+        <p>The Questions in this Quiz are based on following conditions.</p>
+        <p>...</p>
+      </div>
+      <div class="conditions">
+        <p>Exactly six witnesses will testify in a trial: Mangione,
+          Ramirez, Sanderson, Tannenbaum, Ujemori, and Wong. The
+          witnesses will testify one by one, and each only once. The
+          order in which the witnesses testify is subject to the
+          following constraints:</p>
+          <p>
+            ...
+          </p>
+          <p>Sanderson must testify immediately before either
+          Tannenbaum or Ujemori.</p>
+          <p>Ujemori must testify earlier than both Ramirez and
+            Wong.</p>
+          <p>Either Tannenbaum or Wong must testify immediately
+            before Mangione.</p>
+      </div>
+      <button class="next-btn">Begin</button>
+    </div>
+
+    <!-- question display (in javascript) -->
+    <div class="questions">
+      <header>
+        <div class="title">Choose the response that most accurately and completely answers each question</div>
+        <div class="time">
+          <div class="remaining-time">Countdown</div>
+          <div class="seconds">120</div>
+        </div>
+      </header>
+      <section>
+        <div class="questions"></div>
+        <div class="choices"></div>
+      </section>
+    </div>
+
+    <!-- question footer (in js) -->
+    <footer>
+      <div class="questions-remaining"></div>
+      <button class="next-q-btn">Next</button>
+    </footer>
+
+    <!-- end of quiz (js) -->
+    <div class="points">
+      <div class="quiz-done">You just completed one of the hardest LSAT game made!</div>
+      <div class="total-points"></div>
+    </div>
 
     <script src="./assets/js/script.js"></script>
   </body>
