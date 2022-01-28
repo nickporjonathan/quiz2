@@ -9,6 +9,7 @@ body {
   background: cyan;
 }
 
+/* this is for the intial btn the user sees */
 .first-btn {
   position: absolute;
   top: 50%;

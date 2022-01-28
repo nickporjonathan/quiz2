@@ -1,0 +1,101 @@
+GIVEN I am taking a code quiz
+
+this quiz will be based on a logic games section from the lsats
+
+WHEN I click the start button
+THEN a timer starts and I am presented with a question
+
+the main page will just be the button;
+then it will take you to the conditions of the game.
+
+WHEN I answer a question
+THEN I am presented with another question
+
+the question will be presented and when answered;
+the next button will show up.
+
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
+
+not sure how to do this?
+
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over
+WHEN the game is over
+THEN I can save my initials and score
+
+when the game is over it will take you to a page saying good job and show you your score.
+
+
+Questions:
+
+Exactly six witnesses will testify in a trial: Mangione,
+Ramirez, Sanderson, Tannenbaum, Ujemori, and Wong. The
+witnesses will testify one by one, and each only once. The
+order in which the witnesses testify is subject to the
+following constraints:
+
+a) Sanderson must testify immediately before either
+Tannenbaum or Ujemori.
+
+b) Ujemori must testify earlier than both Ramirez and
+Wong.
+
+c) Either Tannenbaum or Wong must testify immediately
+before Mangione.
+
+1.
+Which one of the following lists the witnesses in an
+order in which they could testify?
+
+(A) Ramirez, Sanderson, Tannenbaum, Mangione,
+Ujemori, Wong
+(B!) Sanderson, Tannenbaum, Ujemori, Ramirez,
+Wong, Mangione
+(C) Sanderson, Ujemori, Tannenbaum, Wong,
+Ramirez, Mangione
+(D) Tannenbaum, Mangione, Ujemori, Sanderson,
+Ramirez, Wong
+(E) Wong, Ramirez, Sanderson, Tannenbaum,
+Mangione, Ujemori
+
+2.
+If Tannenbaum testifies first, then which one of the
+following could be true?
+
+(A) Ramirez testifies second.
+(B) Wong testifies third.
+(C) Sanderson testifies fourth.
+(D) Ujemori testifies fifth.
+(E!) Mangione testifies sixth.
+
+3.
+If Sanderson testifies fifth, then Ujemori must testify
+
+(A!) first
+(B) second
+(C) third
+(D) fourth
+(E) sixth
+
+4.
+Which one of the following pairs of witnesses
+CANNOT testify third and fourth, respectively?
+
+(A!) Mangione, Tannenbaum
+(B) Ramirez, Sanderson
+(C) Sanderson, Ujemori
+(D) Tannenbaum, Ramirez
+(E) Ujemori, Wong
+
+5.
+Which one of the following pairs of witnesses
+CANNOT testify first and second, respectively?
+
+(A) Sanderson, Ujemori
+(B) Tannenbaum, Mangione
+(C) Tannenbaum, Sanderson
+(D!) Ujemori, Tannenbaum
+(E) Ujemori, Wong
+
+! = correct answer
