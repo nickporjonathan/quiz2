@@ -2,26 +2,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 body {
   background: cyan;
 }
 
-/* this is for the intial btn the user sees */
-.first-btn {
+/* general buttons */
+.first-btn,
+.condition-box {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* start button */
+.first-btn {
   font-size: 60px;
   font-weight: bold;
   color: indigo;
   padding: 20px 50px;
   outline: black;
+  border: black;
   border-radius: 15px;
   background: gold;
   cursor: progress;
 }
 
+/* quiz explanation */
+
+.condition-box {
+  width: 600px;
+  background: blanchedalmond;
+  border-radius: 12px;
+}
+
+.condition-box,
+.condition-directions,{
+  height: 100px;
+  width: 100px;
+  border-bottom: 0.5px solid chocolate;
+  display: flexbox;
+  align-items: center;
+  padding: 0 40px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.condition-box,
+.conditions {
+  padding: 20px 40px;
+  margin: 10px 0;
+  font-size: medium;
+}
